@@ -1,0 +1,13 @@
+# make and build files
+*.o
+
+#Ignore Pycache files
+__pycache__/
+
+
+# Ignore Local Dataset 
+BACKEND_ML/PRE_DATASET/data
+BACKEND_ML/mlruns
+BACKEND_ML/mlartifacts
+BACKEND_ML/.vscode
+

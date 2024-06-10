@@ -1,0 +1,18 @@
+{
+    "MODE":"",
+    "TUNNING":"",
+    "Modeldir":"",
+    "step": "",
+    "RUNNAME":"",
+    "EXPERIMENT_NAME":"",
+    "TRAINING_DATASET":"",
+    "TESTING_DATASET":"",
+    "DATASET_DIR":"",
+    "OPTION":"" ,
+    "NUMBER OF CLASS":"2",
+    "DEVICE":"cuda",
+    "TAG":["tag", "person"]
+}
+
+
+
