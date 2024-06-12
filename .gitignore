@@ -1,2 +1,8 @@
+# .gitignore
+
 # make and build files
 *.o
+*.pem
+
+# folders
+/*/certs
