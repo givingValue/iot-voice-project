@@ -3,12 +3,12 @@
 ## Table of Contents
 - [Mosquitto Broker](#mosquitto-broker)
   - [Table of Contents](#table-of-contents)
-    - [Install the Broker in Ubuntu Server](#install-the-broker-in-ubuntu-server)
+    - [Install the Mosquitto in Ubuntu Server](#install-the-mosquitto-in-ubuntu-server)
     - [Config the Broker with Passwords](#config-the-broker-with-passwords)
     - [References](#references)
 
-### Install the Broker in Ubuntu Server
-To install the mosquitto broker in Ubuntu Server you have to execute the next commands:
+### Install the Mosquitto in Ubuntu Server
+To install the mosquitto in Ubuntu Server you have to execute the next commands:
 
 * Add the mosquitto repository:
 ```
@@ -35,10 +35,10 @@ $ sudo chown mosquitto:mosquitto passwordfile
 * Create the config file:
 ```
 $ cd /etc/mosquitto/conf.d
-$ sudo touch iot_broker.conf
+$ sudo touch mosquitto_password_broker.conf
 ```
 
-* Put the config options into the config file:
+* Put the configuration options into the config file:
 
 Example:
 ```
@@ -51,11 +51,11 @@ allow_anonymous false
 password_file /etc/mosquitto/passwordfile
 max_inflight_messages 0
 ```
-> ℹ️: Use the file ``mosquitto_password.conf.template`` as guide.
+> ℹ️: Use the file ``mosquitto_password_broker.conf.template`` as guide.
 
 * Run the mosquitto command:
 ```
-$ sudo mosquitto -c /etc/mosquitto/conf.d/iot_broker.conf -d
+$ sudo mosquitto -c /etc/mosquitto/conf.d/mosquitto_password_broker.conf -d
 ```
 > ℹ️: To verify that the broker is up and running you can check the logs by executing: ``sudo cat /var/log/mosquitto/mosquitto.log``.
 
