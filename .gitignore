@@ -1,7 +1,7 @@
 # .gitignore
 
 # make and build files
-*.o
+*.exe
 *.pem
 
 # folders

@@ -14,6 +14,11 @@ struct mosquitto *mosquitto_client;
 char *get_argument(int arguments_length, char **arguments, char *argument, bool required, char *default_value) {
     char *argument_value;
 
+    if (arguments_length == 1) {
+        printf("There are not arguments.\n");
+        exit(-1);
+    }
+
     for(int index = 1; index < arguments_length; index++) {
         argument_value = arguments[index];
 
@@ -77,9 +82,8 @@ int main(int argc, char **argv){
     const char *BROKER_HOST = get_argument(argc, argv, "--broker", 1, NULL);
     const int BROKER_PORT = atoi(get_argument(argc, argv, "--port", 1, NULL));
     const char *TOPIC = get_argument(argc, argv, "--topic", 1, NULL);
-    const char *CA_FILE = get_argument(argc, argv, "--ca-file", 1, NULL);
-    const char *CERT_FILE = get_argument(argc, argv, "--cert-file", 1, NULL);
-    const char *KEY_FILE = get_argument(argc, argv, "--key-file", 1, NULL);
+    const char *USERNAME = get_argument(argc, argv, "--username", 1, NULL);
+    const char *PASSWORD = get_argument(argc, argv, "--password", 1, NULL);
     const char *DATA_FILE = get_argument(argc, argv, "--data-file", 1, NULL);
     const int MAX_MESSAGE_BYTES = atoi(get_argument(argc, argv, "--max-message-bytes", 0, "100"));
     const int READ_INTERVAL = atoi(get_argument(argc, argv, "--read-interval", 0, "5"));
@@ -93,7 +97,7 @@ int main(int argc, char **argv){
 
     mosquitto_client = mosquitto_new(CLIENT_ID, CLEAN_SESSION, NULL);
 
-    mosquitto_tls_set(mosquitto_client, CA_FILE, NULL, CERT_FILE, KEY_FILE, NULL);
+    mosquitto_username_pw_set(mosquitto_client, USERNAME, PASSWORD);
 
     status = mosquitto_connect(mosquitto_client, BROKER_HOST, BROKER_PORT, KEEPALIVE);
 
