@@ -38,7 +38,7 @@ Example:
 ```
 $ ./mosquitto_password_publisher.exe --broker 3.238.84.216 --port 3000 --topic /iot/channel/1 --username iot_user --password 4741iot --data-file ./data.txt
 or
-$ ./mosquitto_password_publisher.exe --broker 3.238.84.216 --port 3000 --topic /iot/channel/1 --ca-file ./ca.pem  --cert-file ./cert.pem --key-file ./cert.key --data-file ./data.txt
+$ ./mosquitto_password_publisher.exe --broker 3.238.84.216 --port 3000 --topic /iot/channel/1 --ca-file ./root.ca  --cert-file ./cert.crt --key-file ./cert.key --data-file ./data.txt
 ```
 
 ### References
