@@ -5,5 +5,5 @@
 *.pem
 
 # folders
-*/*/certs
-*/*/venv
+*/certs
+*/venv

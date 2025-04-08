@@ -1,4 +1,5 @@
 
+apt install python3.12-venv
 python -m venv /path/to/new/virtual/environment
 
 ### References
