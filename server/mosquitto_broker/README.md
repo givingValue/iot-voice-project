@@ -3,12 +3,12 @@
 ## Table of Contents
 - [Mosquitto Broker](#mosquitto-broker)
   - [Table of Contents](#table-of-contents)
-    - [Install the Mosquitto in Ubuntu Server](#install-the-mosquitto-in-ubuntu-server)
+    - [Install Mosquitto in Ubuntu Server](#install-mosquitto-in-ubuntu-server)
     - [Config the Broker with Passwords](#config-the-broker-with-passwords)
     - [References](#references)
 
-### Install the Mosquitto in Ubuntu Server
-To install the mosquitto in Ubuntu Server you have to execute the next commands:
+### Install Mosquitto in Ubuntu Server
+To install mosquitto in Ubuntu Server you have to execute the next commands:
 
 * Add the mosquitto repository:
 ```
@@ -30,6 +30,7 @@ $ sudo mosquitto_passwd -c passwordfile <username>
 $ sudo chown mosquitto:mosquitto passwordfile
 ```
 > ℹ️: It is recommended to run this command at ``/etc/mosquitto/``.
+
 > ℹ️: The password of the username will be requested just after executing the command.
 
 * Create the config file:

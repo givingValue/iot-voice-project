@@ -3,6 +3,7 @@
 # make and build files
 *.exe
 *.pem
+*.env*
 
 # folders
 */certs
