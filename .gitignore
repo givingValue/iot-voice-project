@@ -1,3 +1,5 @@
+# .gitignore
+
 # make and build files
 *.o
 #Ignore Pycache files
@@ -9,3 +11,10 @@ server_ML/mlruns
 server_ML/mlartifacts
 server_ML/.vscode
 
+*.exe
+*.pem
+*.env*
+
+# folders
+*/certs
+*/venv

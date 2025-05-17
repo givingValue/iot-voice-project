@@ -1,0 +1,16 @@
+[Unit]
+Description=Mosquitto Publisher
+Requires=mosquitto-publisher.socket
+
+[Service]
+Type=notify
+ExecStart=/usr/local/bin/mosquitto_publisher --config-file /etc/mosquitto-publisher/mosquitto-publisher.conf
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+ExecStartPre=/bin/mkdir -m 740 -p /var/log/mosquitto-publisher
+ExecStartPre=/bin/chown root:root /var/log/mosquitto-publisher
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
