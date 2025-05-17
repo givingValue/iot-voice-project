@@ -1,0 +1,10 @@
+[Unit]
+Description=Mosquitto Publisher Socket
+Requires=mosquitto-publisher.service
+
+[Socket]
+ListenDatagram=/run/mosquitto-publisher.socket
+FileDescriptorName=/run/mosquitto-publisher.socket
+
+[Install]
+WantedBy=sockets.target
