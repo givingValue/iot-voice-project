@@ -4,7 +4,7 @@
 __pycache__/
 
 # Ignore Local Dataset 
-server_ML/PRE_DATASET
+server_ML/PRE_DATASET/*
 server_ML/mlruns
 server_ML/mlartifacts
 server_ML/.vscode
