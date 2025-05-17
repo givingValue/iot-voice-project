@@ -35,11 +35,12 @@ def ML_TRAINING(TUNNING,MODEL_DIR,STEP,RUNNAME,TRAINING_DATASET,EXPERIMENT,CONF)
         model=torch.load(MODEL_DIR+".pt",map_location=device)
         MODEL_DIR+="_"+str(STEP)+".pt"
     else :
+        #Specify better model selections 
         model=SPECTROGRAM_MODEL(CONF["NUMBER OF CLASS"])
         torch.save(model.state_dict(), MODEL_DIR+".pth")
     if torch.cuda.is_available() and CONF["DEVICE"]=="cuda":
         model = model.to('cuda')
-    print(device)
+    #print(device)
     run_experiment(model,Train_dataset,device,MODEL_DIR,RUNNAME,EXPERIMENT)
 
 def ML_TESTING(MODEL_DIR,RUNNAME,STEP,TESTING_DATASET,RESULT_DIR,EXPERIMENT,CONF):
