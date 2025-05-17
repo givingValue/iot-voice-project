@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/a6613bd8e8864eeea43a3693c1d55727/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: active
+run_id: a6613bd8e8864eeea43a3693c1d55727
+run_name: bedecked-foal-531
+run_uuid: a6613bd8e8864eeea43a3693c1d55727
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716051385736
+status: 1
+tags: []
+user_id: croes175

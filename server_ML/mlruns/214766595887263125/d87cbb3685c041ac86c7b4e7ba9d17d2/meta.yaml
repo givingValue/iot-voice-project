@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/d87cbb3685c041ac86c7b4e7ba9d17d2/artifacts
+deleted_time: 1716053985809
+end_time: 1716036540774
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: deleted
+run_id: d87cbb3685c041ac86c7b4e7ba9d17d2
+run_name: redolent-zebra-898
+run_uuid: d87cbb3685c041ac86c7b4e7ba9d17d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716036220856
+status: 4
+tags: []
+user_id: croes175

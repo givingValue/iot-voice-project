@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/4f227439fc504444affcc4640d62d262/artifacts
+deleted_time: 1716053985808
+end_time: 1716053229647
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: deleted
+run_id: 4f227439fc504444affcc4640d62d262
+run_name: smiling-deer-22
+run_uuid: 4f227439fc504444affcc4640d62d262
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716053229397
+status: 4
+tags: []
+user_id: croes175

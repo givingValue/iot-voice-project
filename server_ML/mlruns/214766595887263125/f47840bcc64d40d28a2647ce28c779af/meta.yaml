@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/f47840bcc64d40d28a2647ce28c779af/artifacts
+end_time: 1716037104966
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: active
+run_id: f47840bcc64d40d28a2647ce28c779af
+run_name: nervous-cod-381
+run_uuid: f47840bcc64d40d28a2647ce28c779af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716036805890
+status: 3
+tags: []
+user_id: croes175

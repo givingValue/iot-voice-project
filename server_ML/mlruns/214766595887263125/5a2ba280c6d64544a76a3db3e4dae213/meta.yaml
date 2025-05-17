@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/5a2ba280c6d64544a76a3db3e4dae213/artifacts
+end_time: 1716037584936
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: active
+run_id: 5a2ba280c6d64544a76a3db3e4dae213
+run_name: adorable-squid-819
+run_uuid: 5a2ba280c6d64544a76a3db3e4dae213
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716037349036
+status: 3
+tags: []
+user_id: croes175

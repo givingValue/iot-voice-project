@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/813350091159714895/7cef3ffa6fef44dc8030bc3aefd98199/artifacts
+deleted_time: 1716063899798
+end_time: 1716063361970
+entry_point_name: ''
+experiment_id: '813350091159714895'
+lifecycle_stage: deleted
+run_id: 7cef3ffa6fef44dc8030bc3aefd98199
+run_name: burly-lynx-317
+run_uuid: 7cef3ffa6fef44dc8030bc3aefd98199
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716063065657
+status: 3
+tags: []
+user_id: croes175

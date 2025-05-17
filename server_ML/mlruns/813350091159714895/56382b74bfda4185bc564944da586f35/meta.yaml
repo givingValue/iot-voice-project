@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/813350091159714895/56382b74bfda4185bc564944da586f35/artifacts
+deleted_time: 1716066535242
+end_time: 1716066418542
+entry_point_name: ''
+experiment_id: '813350091159714895'
+lifecycle_stage: deleted
+run_id: 56382b74bfda4185bc564944da586f35
+run_name: TESTING
+run_uuid: 56382b74bfda4185bc564944da586f35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716066107911
+status: 4
+tags: []
+user_id: croes175

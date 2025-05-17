@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/c05add561006489a9220ffc0dd78cf99/artifacts
+end_time: 1716046459564
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: active
+run_id: c05add561006489a9220ffc0dd78cf99
+run_name: shivering-bass-508
+run_uuid: c05add561006489a9220ffc0dd78cf99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716046210463
+status: 3
+tags: []
+user_id: croes175

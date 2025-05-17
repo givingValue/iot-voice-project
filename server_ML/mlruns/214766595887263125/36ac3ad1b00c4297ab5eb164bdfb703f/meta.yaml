@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/36ac3ad1b00c4297ab5eb164bdfb703f/artifacts
+deleted_time: 1716579193354
+end_time: 1715418689125
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: deleted
+run_id: 36ac3ad1b00c4297ab5eb164bdfb703f
+run_name: learned-colt-792
+run_uuid: 36ac3ad1b00c4297ab5eb164bdfb703f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715415278850
+status: 4
+tags: []
+user_id: croes175

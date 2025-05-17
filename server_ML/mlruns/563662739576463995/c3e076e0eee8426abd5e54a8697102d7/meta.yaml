@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/563662739576463995/c3e076e0eee8426abd5e54a8697102d7/artifacts
+end_time: 1716740372640
+entry_point_name: ''
+experiment_id: '563662739576463995'
+lifecycle_stage: active
+run_id: c3e076e0eee8426abd5e54a8697102d7
+run_name: THIRD_TEST
+run_uuid: c3e076e0eee8426abd5e54a8697102d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716740068553
+status: 3
+tags: []
+user_id: croes175

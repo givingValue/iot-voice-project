@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/d5116001a67a454786fb68f61656850e/artifacts
+deleted_time: 1716053985808
+end_time: null
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: deleted
+run_id: d5116001a67a454786fb68f61656850e
+run_name: stylish-calf-728
+run_uuid: d5116001a67a454786fb68f61656850e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716052221866
+status: 1
+tags: []
+user_id: croes175

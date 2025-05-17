@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/214766595887263125/45901c49268d45acb2730effb1e132e4/artifacts
+deleted_time: 1716053985806
+end_time: 1716051343441
+entry_point_name: ''
+experiment_id: '214766595887263125'
+lifecycle_stage: deleted
+run_id: 45901c49268d45acb2730effb1e132e4
+run_name: invincible-squid-47
+run_uuid: 45901c49268d45acb2730effb1e132e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716051093046
+status: 4
+tags: []
+user_id: croes175

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/851428899293653868
+creation_time: 1716591447756
+experiment_id: '851428899293653868'
+last_update_time: 1716591447756
+lifecycle_stage: active
+name: TRAINING_MODEL
